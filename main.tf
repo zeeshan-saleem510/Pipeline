@@ -5,6 +5,12 @@ terraform {
       version = "4.38.1"
     }
   }
+  backend "azurerm" {
+    resource_group_name   = "AA_RG_Zee_Terraform1"
+    storage_account_name  = "zee1storage"
+    container_name        = "zeecontainer"
+    key                   = "zeekey.tfstate"
+  }
 }
 
 
