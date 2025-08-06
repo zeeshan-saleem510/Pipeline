@@ -14,6 +14,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "RG_Zee_Terraform" {
-  name     = "AA_RG_Zee_Terraform"
+  name     = "AA_RG_Zee_Terraform1"
   location = "East US"
 }
