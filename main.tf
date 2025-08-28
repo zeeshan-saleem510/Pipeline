@@ -2,12 +2,12 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "4.38.1"
+      version = "4.41.0"
     }
   }
   backend "azurerm" {
-    resource_group_name   = "AA_RG_Zee_Terraform1"
-    storage_account_name  = "zee1storage"
+    resource_group_name   = "Zees-UK"
+    storage_account_name  = "dummyzeeuk"
     container_name        = "zeecontainer"
     key                   = "zeekey.tfstate"
   }
@@ -16,15 +16,15 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "805cc58a-b2c1-4e91-97ec-b0ba35c3dc96" # Replace with your subscription ID
+  subscription_id = "3142e9bb-dc6c-403c-9fcf-cbf1d0163394" # Replace with your subscription ID
 }
 
 resource "azurerm_resource_group" "RG_Zee_Terraform" {
-  name     = "AA_RG_Zee_Terraform1"
+  name     = "Abc_RG_Zee_Terraform1"
   location = "East US"
 }
 
 resource "azurerm_resource_group" "RG_Zee_Terraform" {
-  name     = "RG1_Zee_Terraform1"
+  name     = "ADE-RG1_Zee_Terraform1"
   location = "East US"
 }
