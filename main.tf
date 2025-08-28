@@ -25,7 +25,7 @@ resource "azurerm_resource_group" "RG_Zee_Terraform" {
 }
 
 
-resource "azurerm_resource_group" "RG_Zee_Terraform" {
+resource "azurerm_resource_group" "RG_Zee_Terraform1" {
   name     = "ADE-RG1_Zee_Terraform1-zee"
   location = "East US"
 }
