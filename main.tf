@@ -20,11 +20,12 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "RG_Zee_Terraform" {
-  name     = "Abc_RG_Zee_Terraform1"
+  name     = "Abc_RG_Zee_Terraform1-zees"
   location = "East US"
 }
 
+
 resource "azurerm_resource_group" "RG_Zee_Terraform" {
-  name     = "ADE-RG1_Zee_Terraform1"
+  name     = "ADE-RG1_Zee_Terraform1-zee"
   location = "East US"
 }
